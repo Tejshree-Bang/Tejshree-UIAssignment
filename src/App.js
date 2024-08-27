@@ -6,6 +6,7 @@ import { groupByMonth } from "./utils/groupByMonth";
 import { useDebounce } from "./hooks/useDebounce";
 import Loading from "./components/Loading";
 
+
 const App = () => {
   const [transactions, setTransactions] = useState([]);
   const [pointsData, setPointsData] = useState({});
